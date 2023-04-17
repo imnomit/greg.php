@@ -1,0 +1,4 @@
+token.persistence.filesystem:
+    create: nomit\Security\Session\Token\Persistence\FileSystemTokenPersistence( @filesystem, @serializer, null, @cryptography.encrypter, @cryptography.hasher, @lock.factory, null, @logger )
+    tags:
+        logger: security.session.token.persistence

@@ -1,0 +1,1 @@
+mail.mailer: nomit\Security\Registration\Confirmation\Mail\Mailer

@@ -1,0 +1,112 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * (...) > SPARKLE > TABLES
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.table {
+    display: table;
+    border-collapse: collapse;
+    width: 100%;
+    color: var(--color-text-1);
+}
+
+.table-hdr,
+.table-body,
+.table-ftr {
+    border-bottom: 2px solid var(--color-border-1);
+}
+
+.table-hdr-cell,
+.table-cell {
+    border: none;
+    padding: var(--value-4);
+    text-align: left;
+}
+
+.table-hdr-cell.table-cell-fit,
+.table-cell.table-cell-fit {
+    width: 1%;
+    padding-right: 0 !important;
+    vertical-align: middle !important;
+}
+
+.table-hdr-cell.table-cell-fill,
+.table-cell.table-cell-fill {
+    width: 100%;
+    vertical-align: middle !important;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * (...) > SPARKLE > TABLE > HEADER
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.table-hdr {
+    display: table-header-group;
+}
+
+.table-hdr-row {
+    display: table-row;
+}
+
+.table-hdr-cell {
+    display: table-cell;
+    vertical-align: top;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* (...) > SPARKLE > TABLE > BODY
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.table-body {
+    display: table-row-group;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.hover\:table-row:hover,
+.focus\:table-row:focus {
+    background: var(--color-bg-2);
+    border-radius: 3px;
+}
+
+.table-row.clickable {
+    cursor: pointer;
+}
+
+.table-cell {
+    display: table-cell;
+    font-size: 14px;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* (...) > SPARKLE > TABLE > FOOTER
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.table-ftr {
+    display: table-footer-group;
+}
+
+.table-ftr-row {
+    display: table-row;
+}
+
+.table-ftr-cell {
+    display: table-cell;
+    font-size: 14px;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* (...) > SPARKLE > TABLE > MISCELLANEOUS
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.table-caption {
+    display: table-caption;
+}
+
+.table-col {
+    display: table-column;
+}
+
+.table-col-group {
+    display: table-column-group;
+}

@@ -1,0 +1,7 @@
+*,
+:root {
+    --shadow: 0 0 transparent;
+    --text-opacity: 1;
+    --border-opacity: 1;
+    --bg-opacity: 1;
+}

@@ -1,0 +1,8 @@
+handler.success.default:
+    create: nomit\Security\Registration\Handler\DefaultSuccessfulRegistrationHandler
+    tags:
+        - registration.handler.success
+handler.failure.default:
+    create: nomit\Security\Registration\Handler\DefaultFailedRegistrationHandler
+    tags:
+        - registration.handler.failure

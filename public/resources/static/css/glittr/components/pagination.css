@@ -1,0 +1,75 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * (...) > SPARKLE > PAGINATION
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.pagination {
+    list-style: none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    margin: 0;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* (...) > SPARKLE > PAGINATION > LAYOUT
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.pagination-center,
+.pagination-container .pagination {
+    text-align: center;
+}
+
+.pagination-edge {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* (...) > SPARKLE > PAGINATION > BUTTONS
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.pagination .btn {
+    color: var(--color-text-1);
+    margin: var(--value-2);
+    padding: 0 10px;
+}
+
+.pagination .btn:hover {
+    background-color: var(--color-button-1-bg-2) !important;
+}
+
+.pagination .btn.page {
+    background: none;
+    outline: none !important;
+}
+
+.pagination .btn.selected {
+    background-color: var(--color-button-2-bg-1) !important;
+    color: var(--color-text-contrast);
+}
+
+.pagination .btn.page-ellipsis {
+    display: inline-flex;
+    text-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0 8px;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* (...) > SPARKLE > PAGINATION > PAGE STATS
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.pagination .page-stats {
+    display: block;
+    align-self: center;
+    color: var(--color-text-2);
+    font-size: 95%;
+}
+
+.pagination .page-stats b {
+    color: var(--color-text-1);
+}
+
+.pagination.pagination-empty,
+.pagination:empty {
+    padding: 0;
+}

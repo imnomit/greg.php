@@ -1,0 +1,4 @@
+event_listener.access_control:
+    create: nomit\Web\EventListener\AccessControlAllowedOriginHeaderEventListener
+    tags:
+        - event_subscriber

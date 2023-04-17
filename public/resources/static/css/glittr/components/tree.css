@@ -1,0 +1,7 @@
+.tree {
+    list-style: none;
+}
+
+.tree .node {
+    margin-left: var(--value-0);
+}

@@ -1,0 +1,33 @@
+.progress,
+.progress-small,
+.progress-large {
+    display: flex;
+    height: 8px;
+    overflow: hidden;
+    background-color: var(--color-bg-grey-tertiary);
+    border-radius: var(--value-2);
+    outline: 1px solid transparent; /* Support Firefox custom colors */
+}
+
+.progress.large,
+.progress-large {
+    height: 10px;
+}
+
+.progress.small,
+.progress-small {
+    height: 5px;
+
+}
+
+.progress .progress-item,
+.progress-small .progress-item,
+.progress-large .progress-item {
+    outline: 2px solid transparent; /* Support Firefox custom colors */
+}
+
+.progress .progress-item + .progress-item,
+.progress-small .progress-item + .progress-item,
+.progress-large .progress-item + .progress-item {
+    margin-left: 2px;
+}

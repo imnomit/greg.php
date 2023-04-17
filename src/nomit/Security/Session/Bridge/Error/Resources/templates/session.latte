@@ -1,0 +1,30 @@
+<wrapper class="xs:container m-x-auto">
+    <header class="p-b-6">
+        <h1 class="text-4xl">👤 Session</h1>
+    </header>
+    <main class="bg-2 p-8">
+        {foreach $sessions as $name => $session}
+            <header class="p-b-4">
+                <h2>Session {$name}</h2>
+            </header>
+            <main>
+                <dl class="dl">
+                    <dd class="dl-label">Session ID</dd>
+                    <dt class="dl-value"><code>{$session['session_id']}</code></dt>
+
+                    <dd class="dl-label">Fingerprint</dd>
+                    <dt class="dl-value"><code>{$session['fingerprint']}</code></dt>
+
+                    <dd class="dl-value">Created At</dd>
+                    <dt class="dl-value">{$session['created_at']->format('c')}</dt>
+
+                    <dd class="dl-label">Requests Count</dd>
+                    <dt class="dl-value">{$session['requests_count']}</dt>
+
+                    <dd class="dl-label">Storage</dd>
+                    <dt class="dl-value"><code>{json_encode($session['storage'])}</code></dt>
+                </dl>
+            </main>
+        {/foreach}
+    </main>
+</wrapper>

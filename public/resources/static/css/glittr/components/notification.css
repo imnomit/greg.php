@@ -1,0 +1,17 @@
+.notifiable {
+    position: relative;
+}
+.notification {
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    height: 20px;
+    padding: var(--value-1);
+    background-color: var(--color-red-600);
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-size: 11px;
+    border-radius: var(--value-1);
+}

@@ -1,0 +1,72 @@
+.box {
+    background-color: var(--color-bg-1);
+    border-color: var(--color-border-1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 6px;
+}
+
+.box-cond,
+.box-condensed,
+.box.condensed {
+    line-height: 1.25;
+}
+
+.box-spacious .box-hdr,
+.box-spacious .box-main,
+.box-spacious .box-ftr,
+.box.spacious .box-hdr,
+.box.spacious .box-main,
+.box.spacious .box-ftr {
+    padding: 24px;
+}
+
+.box-spacious .box-hdr,
+.box.spacious .box-hdr {
+    line-height: 1.25;
+}
+
+.box-hdr,
+.box-header {
+    padding: var(--value-3) var(--value-4);
+}
+
+.box-title {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0;
+}
+
+.box-main {
+    padding: var(--value-6);
+    border-bottom: 1px solid var(--color-border-1);
+}
+
+.box-ftr,
+.box-footer {
+    padding: var(--value-3) var(--value-4);
+    border-top-color: var(--color-border-1);
+    background-color: var(--color-bg-2);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-radius: 0 0 6px 6px;
+}
+
+.box-row {
+    padding: 16px;
+    margin-top: -1px;
+    list-style-type: none;
+    border-top-color: var(--color-border-2);
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.box-row:first-of-type {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.box-row:last-of-type {
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}

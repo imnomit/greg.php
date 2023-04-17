@@ -1,0 +1,4 @@
+summary.user:
+    create: Application\Security\User\Summary\UserSummaryExtension
+    tags:
+        - application.summary.administration.extension

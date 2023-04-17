@@ -1,0 +1,10 @@
+event_listener.password_hashing:
+    create: nomit\Security\Registration\EventListener\PasswordHashingEventListener( @logger )
+    tags:
+        - event_subscriber
+        logger: security.registration
+event_listener.registration:
+    create: nomit\Security\Registration\EventListener\RegistrationEventListener
+    tags:
+        - event_subscriber
+        logger: security.registration

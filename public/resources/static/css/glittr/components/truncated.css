@@ -1,0 +1,52 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * (...) > SPARKLE > TRUNCATED
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.truncated,
+.truncated-ltr,
+.truncated-rtl {
+    display: inline-block;
+    vertical-align: -6px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    direction: ltr;
+    transition: max-width 0.3s;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * (...) > SPARKLE > TRUNCATED > LEFT-TO-RIGHT
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.truncated.ltr,
+.truncated-ltr {
+    direction: ltr;
+    text-align: left;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * (...) > SPARKLE > TOOLTIPPED > RIGHT-TO-LEFT
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.truncated.rtl,
+.truncated-rtl {
+    direction: rtl;
+    text-align: right;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * (...) > SPARKLE > TOOLTIPPED > EXPANDABLE
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.truncated-expandable.hover,
+.truncated-expandable:hover
+.truncated.expandable.hover,
+.truncated.expandable:hover,
+.truncated-ltr.truncated-expandable.hover,
+.truncated-ltr.truncated-expandable:hover,
+.truncated-ltr.expandable.hover,
+.truncated-ltr.expandable:hover,
+.truncated-rtl.truncated-expandable.hover,
+.truncated-rtl.truncated-expandable:hover,
+.truncated-rtl.expandable.hover,
+.truncated-rtl.expandable:hover {
+    transition: max-width 0.3s;
+    max-width: 10000px !important;
+}
+

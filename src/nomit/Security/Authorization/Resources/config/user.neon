@@ -1,0 +1,5 @@
+user.provider.database:
+    create: nomit\Security\Authorization\User\DatabaseUserAuthorizationProvider( @database.explorer )
+    tags:
+        - authorization.user.provider
+        logger: security.authorization

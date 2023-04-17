@@ -1,0 +1,4 @@
+event_listener.user_role_provider:
+    create: nomit\Security\Authorization\EventListener\UserRoleProviderEventListener( @authorization.user.provider )
+    tags:
+        event_subscriber: event_dispatcher

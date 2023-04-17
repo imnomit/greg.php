@@ -1,0 +1,12 @@
+handler.callback:
+    create: nomit\Messenger\Handler\CallbackHandlerFactory
+    tags:
+        - messenger.handler
+handler.closure:
+    create: nomit\Messenger\Handler\ClosureHandlerFactory
+    tags:
+        - messenger.handler
+handler.invokable:
+    create: nomit\Messenger\Handler\InvokableHandlerFactory
+    tags:
+        - messenger.handler

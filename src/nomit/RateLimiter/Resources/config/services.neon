@@ -1,0 +1,9 @@
+services:
+    storage.cache:
+        create: nomit\RateLimiter\Storage\CacheStorage( @cache )
+        tags:
+            - rate_limiter.storage
+    storage.in_memory:
+        create: nomit\RateLimiter\Storage\InMemoryStorage
+        tags:
+            - rate_limiter.storage

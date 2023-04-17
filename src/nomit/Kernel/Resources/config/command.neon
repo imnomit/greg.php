@@ -1,0 +1,34 @@
+command.about:
+    create: nomit\Kernel\Command\AboutCommand
+    tags:
+        console.command:
+            command: about
+command.secret.decrypt_to_local:
+    create: nomit\Kernel\Command\DecryptSecretsToLocalCommand(@kernel.secret.vault, @kernel.secret.vault)
+    tags:
+        console.command:
+            command: secrets:decrypt-to-local
+command.secret.encrypt_secrets_from_local:
+    create: nomit\Kernel\Command\EncryptSecretsFromLocalCommand(@kernel.secret.vault, @kernel.secret.vault)
+    tags:
+        console.command:
+            command: secrets:encrypt-from-local
+command.secret.list:
+    create: nomit\Kernel\Command\ListSecretsCommand(@kernel.secret.vault, @kernel.secret.vault)
+    tags:
+        console.command:
+            command: secrets:list
+command.secret.remove:
+    create: nomit\Kernel\Command\RemoveSecretsCommand(@kernel.secret.vault, @kernel.secret.vault)
+    tags:
+        console.command:
+            command: secrets:remove
+command.secret.set:
+    create: nomit\Kernel\Command\SetSecretsCommand(@kernel.secret.vault, @kernel.secret.vault)
+    tags:
+        console.command:
+            command: secrets:set
+
+
+
+

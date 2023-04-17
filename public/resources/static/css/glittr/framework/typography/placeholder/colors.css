@@ -1,0 +1,542 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * TYPOGRAPHY > COLORS
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * TRANSPARENT
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.ph-trans,
+.placeholder-trans,
+.placeholder-transparent::placeholder {
+    color: transparent !important;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * PARENT COLOR
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.ph-current::placeholder,
+.placeholder-current::placeholder {
+    color: currentColor !important;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * BLACK
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.ph-black::placeholder,
+.placeholder-black::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(0, 0, 0, var(--placeholder-opacity));
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * WHITE
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.ph-white::placeholder,
+.placeholder-white::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(255, 255, 255, var(--placeholder-opacity));
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * GREY
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.ph-grey-50::placeholder,
+.placeholder-grey-50::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(249, 250, 251, var(--placeholder-opacity));
+}
+
+.ph-grey-100::placeholder,
+.placeholder-grey-100::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(243, 244, 246, var(--placeholder-opacity));
+}
+
+.ph-grey-200::placeholder,
+.placeholder-grey-200::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(229, 231, 235, var(--placeholder-opacity));
+}
+
+.ph-grey-300::placeholder,
+.placeholder-grey-300::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(209, 213, 219, var(--placeholder-opacity));
+}
+
+.ph-grey-400::placeholder,
+.placeholder-grey-400::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(156, 163, 175, var(--placeholder-opacity));
+}
+
+.ph-grey-500::placeholder,
+.placeholder-grey-500::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(107, 114, 128, var(--placeholder-opacity));
+}
+
+.ph-grey-600::placeholder,
+.placeholder-grey-600::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(75, 85, 99, var(--placeholder-opacity));
+}
+
+.ph-grey-700::placeholder,
+.placeholder-grey-700::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(55, 65, 81, var(--placeholder-opacity));
+}
+
+.ph-grey-800::placeholder,
+.placeholder-grey-800::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(31, 41, 55, var(--placeholder-opacity));
+}
+
+.ph-grey-900::placeholder,
+.placeholder-grey-900::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(17, 24, 39, var(--placeholder-opacity));
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * RED
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.ph-red-50::placeholder,
+.placeholder-red-50::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(254, 242, 242, var(--placeholder-opacity));
+}
+
+.ph-red-100::placeholder,
+.placeholder-red-100::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(254, 226, 226, var(--placeholder-opacity));
+}
+
+.ph-red-200::placeholder,
+.placeholder-red-200::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(254, 202, 202, var(--placeholder-opacity));
+}
+
+.ph-red-300::placeholder,
+.placeholder-red-300::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(252, 165, 165, var(--placeholder-opacity));
+}
+
+.ph-red-400::placeholder,
+.placeholder-red-400::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(248, 113, 113, var(--placeholder-opacity));
+}
+
+.ph-red-500::placeholder,
+.placeholder-red-500::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(239, 68, 68, var(--placeholder-opacity));
+}
+
+.ph-red-600::placeholder,
+.placeholder-red-600::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(220, 38, 38, var(--placeholder-opacity));
+}
+
+.ph-red-700::placeholder,
+.placeholder-red-700::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(185, 28, 28, var(--placeholder-opacity));
+}
+
+.ph-red-800::placeholder,
+.placeholder-red-800::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(153, 27, 27, var(--placeholder-opacity));
+}
+
+.ph-red-900::placeholder,
+.placeholder-red-900::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(127, 29, 29, var(--placeholder-opacity));
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * YELLOW
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.ph-yellow-50::placeholder,
+.placeholder-yellow-50::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(255, 251, 235, var(--placeholder-opacity));
+}
+
+.ph-yellow-100::placeholder,
+.placeholder-yellow-100::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(254, 243, 199, var(--placeholder-opacity));
+}
+
+.ph-yellow-200::placeholder,
+.placeholder-yellow-200::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(253, 230, 138, var(--placeholder-opacity));
+}
+
+.ph-yellow-300::placeholder,
+.placeholder-yellow-300::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(252, 211, 77, var(--placeholder-opacity));
+}
+
+.ph-yellow-400::placeholder,
+.placeholder-yellow-400::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(251, 191, 36, var(--placeholder-opacity));
+}
+
+.ph-yellow-500::placeholder,
+.placeholder-yellow-500::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(245, 158, 11, var(--placeholder-opacity));
+}
+
+.ph-yellow-600::placeholder,
+.placeholder-yellow-600::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(217, 119, 6, var(--placeholder-opacity));
+}
+
+.ph-yellow-700::placeholder,
+.placeholder-yellow-700::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(180, 83, 9, var(--placeholder-opacity));
+}
+
+.ph-yellow-800::placeholder,
+.placeholder-yellow-800::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(146, 64, 14, var(--placeholder-opacity));
+}
+
+.ph-yellow-900::placeholder,
+.placeholder-yellow-900::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(120, 53, 15, var(--placeholder-opacity));
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * GREEN
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.ph-green-50::placeholder,
+.placeholder-green-50::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(236, 253, 245, var(--placeholder-opacity));
+}
+
+.ph-green-100::placeholder,
+.placeholder-green-100::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(209, 250, 229, var(--placeholder-opacity));
+}
+
+.ph-green-200::placeholder,
+.placeholder-green-200::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(167, 243, 208, var(--placeholder-opacity));
+}
+
+.ph-green-300::placeholder,
+.placeholder-green-300::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(110, 231, 183, var(--placeholder-opacity));
+}
+
+.ph-green-400::placeholder,
+.placeholder-green-400::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(52, 211, 153, var(--placeholder-opacity));
+}
+
+.ph-green-500::placeholder,
+.placeholder-green-500::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(16, 185, 129, var(--placeholder-opacity));
+}
+
+.ph-green-600::placeholder,
+.placeholder-green-600::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(5, 150, 105, var(--placeholder-opacity));
+}
+
+.ph-green-700::placeholder,
+.placeholder-green-700::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(4, 120, 87, var(--placeholder-opacity));
+}
+
+.ph-green-800::placeholder,
+.placeholder-green-800::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(6, 95, 70, var(--placeholder-opacity));
+}
+
+.ph-green-900::placeholder,
+.placeholder-green-900::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(6, 78, 59, var(--placeholder-opacity));
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * BLUE
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.ph-blue-50::placeholder,
+.placeholder-blue-50::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(239, 246, 255, var(--placeholder-opacity));
+}
+
+.ph-blue-100::placeholder,
+.placeholder-blue-100::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(219, 234, 254, var(--placeholder-opacity));
+}
+
+.ph-blue-200::placeholder,
+.placeholder-blue-200::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(191, 219, 254, var(--placeholder-opacity));
+}
+
+.ph-blue-300::placeholder,
+.placeholder-blue-300::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(147, 197, 253, var(--placeholder-opacity));
+}
+
+.ph-blue-400::placeholder,
+.placeholder-blue-400::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(96, 165, 250, var(--placeholder-opacity));
+}
+
+.ph-blue-500::placeholder,
+.placeholder-blue-500::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(59, 130, 246, var(--placeholder-opacity));
+}
+
+.ph-blue-600::placeholder,
+.placeholder-blue-600::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(37, 99, 235, var(--placeholder-opacity));
+}
+
+.ph-blue-700::placeholder,
+.placeholder-blue-700::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(29, 78, 216, var(--placeholder-opacity));
+}
+
+.ph-blue-800::placeholder,
+.placeholder-blue-800::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(30, 64, 175, var(--placeholder-opacity));
+}
+
+.ph-blue-900::placeholder,
+.placeholder-blue-900::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(30, 58, 138, var(--placeholder-opacity));
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * INDIGO
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.ph-indigo-50::placeholder,
+.placeholder-indigo-50::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(238, 242, 255, var(--placeholder-opacity));
+}
+
+.ph-indigo-100::placeholder,
+.placeholder-indigo-100::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(224, 231, 255, var(--placeholder-opacity));
+}
+
+.ph-indigo-200::placeholder,
+.placeholder-indigo-200::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(199, 210, 254, var(--placeholder-opacity));
+}
+
+.ph-indigo-300::placeholder,
+.placeholder-indigo-300::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(165, 180, 252, var(--placeholder-opacity));
+}
+
+.ph-indigo-400::placeholder,
+.placeholder-indigo-400::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(129, 140, 248, var(--placeholder-opacity));
+}
+
+.ph-indigo-500::placeholder,
+.placeholder-indigo-500::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(99, 102, 241, var(--placeholder-opacity));
+}
+
+.ph-indigo-600::placeholder,
+.placeholder-indigo-600::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(79, 70, 229, var(--placeholder-opacity));
+}
+
+.ph-indigo-700::placeholder,
+.placeholder-indigo-700::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(67, 56, 202, var(--placeholder-opacity));
+}
+
+.ph-indigo-800::placeholder,
+.placeholder-indigo-800::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(55, 48, 163, var(--placeholder-opacity));
+}
+
+.ph-indigo-900::placeholder,
+.placeholder-indigo-900::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(49, 46, 129, var(--placeholder-opacity));
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * PURPLE
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.ph-purple-50::placeholder,
+.placeholder-purple-50::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(245, 243, 255, var(--placeholder-opacity));
+}
+
+.ph-purple-100::placeholder,
+.placeholder-purple-100::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(237, 233, 254, var(--placeholder-opacity));
+}
+
+.ph-purple-200::placeholder,
+.placeholder-purple-200::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(221, 214, 254, var(--placeholder-opacity));
+}
+
+.ph-purple-300::placeholder,
+.placeholder-purple-300::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(196, 181, 253, var(--placeholder-opacity));
+}
+
+.ph-purple-400::placeholder,
+.placeholder-purple-400::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(167, 139, 250, var(--placeholder-opacity));
+}
+
+.ph-purple-500::placeholder,
+.placeholder-purple-500::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(139, 92, 246, var(--placeholder-opacity));
+}
+
+.ph-purple-600::placeholder,
+.placeholder-purple-600::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(124, 58, 237, var(--placeholder-opacity));
+}
+
+.ph-purple-700::placeholder,
+.placeholder-purple-700::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(109, 40, 217, var(--placeholder-opacity));
+}
+
+.ph-purple-800::placeholder,
+.placeholder-purple-800::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(91, 33, 182, var(--placeholder-opacity));
+}
+
+.ph-purple-900::placeholder,
+.placeholder-purple-900::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(76, 29, 149, var(--placeholder-opacity));
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * PINK
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.ph-pink-50::placeholder,
+.placeholder-pink-50::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(253, 242, 248, var(--placeholder-opacity));
+}
+
+.ph-pink-100::placeholder,
+.placeholder-pink-100::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(252, 231, 243, var(--placeholder-opacity));
+}
+
+.ph-pink-200::placeholder,
+.placeholder-pink-200::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(251, 207, 232, var(--placeholder-opacity));
+}
+
+.ph-pink-300::placeholder,
+.placeholder-pink-300::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(249, 168, 212, var(--placeholder-opacity));
+}
+
+.ph-pink-400::placeholder,
+.placeholder-pink-400::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(244, 114, 182, var(--placeholder-opacity));
+}
+
+.ph-pink-500::placeholder,
+.placeholder-pink-500::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(236, 72, 153, var(--placeholder-opacity));
+}
+
+.ph-pink-600::placeholder,
+.placeholder-pink-600::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(219, 39, 119, var(--placeholder-opacity));
+}
+
+.ph-pink-700::placeholder,
+.placeholder-pink-700::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(190, 24, 93, var(--placeholder-opacity));
+}
+
+.ph-pink-800::placeholder,
+.placeholder-pink-800::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(157, 23, 77, var(--placeholder-opacity));
+}
+
+.ph-pink-900::placeholder,
+.placeholder-pink-900::placeholder {
+    --placeholder-opacity: 1;
+    color: rgba(131, 24, 67, var(--placeholder-opacity));
+}
